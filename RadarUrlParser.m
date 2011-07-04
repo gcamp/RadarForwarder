@@ -34,5 +34,8 @@ NSString * parseRadarUrl(NSString * urlPath)
     NSTextCheckingResult* result = [expression firstMatchInString:urlPath options:0 range:NSMakeRange(0, urlPath.length)];
     
     if (result.range.location == NSNotFound) return nil;
-    else return [urlPath substringWithRange:result.range];
+    else {
+        NSString* matchedString = [urlPath substringWithRange:result.range];
+        return [matchedString stringByTrimmingCharactersInSet:[[NSCharacterSet decimalDigitCharacterSet] invertedSet]];
+    }
 }
