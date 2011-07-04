@@ -36,6 +36,8 @@
 
 @implementation RadarForwarderAppDelegate
 
+#pragma mark - Life Cycle
+
 + (void)initialize
 {
     NSMutableDictionary * defaultPrefs = [NSMutableDictionary dictionary];
@@ -45,6 +47,14 @@
     NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
     [defaults registerDefaults:defaultPrefs];
 }
+
+- (void)awakeFromNib
+{
+    [self registerForUrls];
+    [self restartIdleTimer];
+}
+
+#pragma mark - Idle timer
 
 - (void)restartIdleTimer
 {
@@ -67,6 +77,8 @@
 {
     [NSApp terminate:self];
 }
+
+#pragma mark - Register/Get URL
 
 - (void) registerForUrls;
 {
@@ -97,12 +109,6 @@
     NSString * newUrlString = [NSString stringWithFormat:forwardingUrlFormat, number];
     NSURL * newUrl = [NSURL URLWithString:newUrlString];
     [[NSWorkspace sharedWorkspace] openURL:newUrl];
-}
-
-- (void)awakeFromNib
-{
-    [self registerForUrls];
-    [self restartIdleTimer];
 }
 
 @end

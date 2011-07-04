@@ -50,6 +50,8 @@
 @synthesize selectedApplication = _selectedApplication;
 @synthesize forwardingUrl = _forwardingUrl;
 
+#pragma mark - PrefPane
+
 - (void)dealloc
 {
     [_selectedApplication release];
@@ -82,6 +84,8 @@
                                          CFSTR("Preferences Changed"), kAppId, NULL, TRUE);
 #endif
 }
+
+#pragma mark - Actions
 
 - (IBAction)applicationChanged:(id)sender;
 {
@@ -118,6 +122,8 @@
               GetMacOSStatusErrorString(result));
     }
 }
+
+#pragma mark - Update values
 
 - (void)updatePreferences;
 {
@@ -156,6 +162,8 @@
     if (value != nil)
         CFRelease(value);
 }
+
+#pragma mark - Default values
 
 - (NSString *)defaultHandler;
 {
