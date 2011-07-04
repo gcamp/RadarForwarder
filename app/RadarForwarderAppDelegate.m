@@ -26,6 +26,13 @@
 #import "RadarForwarderConstants.h"
 #import "RadarUrlParser.h"
 
+@interface RadarForwarderAppDelegate ()
+
+- (void) registerForUrls;
+- (void)restartIdleTimer;
+- (void)timerFired:(NSTimer *)timer;
+
+@end
 
 @implementation RadarForwarderAppDelegate
 
