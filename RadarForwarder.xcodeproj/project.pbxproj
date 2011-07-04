@@ -26,8 +26,6 @@
 		554B13690ED5BD5F00799BC1 /* RadarUrlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B13680ED5BD5F00799BC1 /* RadarUrlParser.m */; };
 		554B136A0ED5BD5F00799BC1 /* RadarUrlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B13680ED5BD5F00799BC1 /* RadarUrlParser.m */; };
 		554B13980ED5BE1600799BC1 /* RadarUrlParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B13970ED5BE1600799BC1 /* RadarUrlParserTest.m */; };
-		554B13A60ED5BEF500799BC1 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B13A40ED5BEF500799BC1 /* RegexKitLite.m */; };
-		554B13A80ED5BEF500799BC1 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B13A40ED5BEF500799BC1 /* RegexKitLite.m */; };
 		554B13B10ED5BF3D00799BC1 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 554B13B00ED5BF3D00799BC1 /* libicucore.dylib */; };
 		554B13B20ED5BF4900799BC1 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 554B13B00ED5BF3D00799BC1 /* libicucore.dylib */; };
 		556C2A270ED0953A002DB76E /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 556C2A1A0ED0953A002DB76E /* AppInfo.m */; };
@@ -91,9 +89,6 @@
 		554B13830ED5BDCA00799BC1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		554B13960ED5BE1600799BC1 /* RadarUrlParserTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarUrlParserTest.h; sourceTree = "<group>"; };
 		554B13970ED5BE1600799BC1 /* RadarUrlParserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarUrlParserTest.m; sourceTree = "<group>"; };
-		554B13A20ED5BEF500799BC1 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
-		554B13A30ED5BEF500799BC1 /* RegexKitLite.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = RegexKitLite.html; sourceTree = "<group>"; };
-		554B13A40ED5BEF500799BC1 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		554B13B00ED5BF3D00799BC1 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		556C2A120ED094DA002DB76E /* RadarForwarder.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadarForwarder.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
 		556C2A190ED0953A002DB76E /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
@@ -189,7 +184,6 @@
 				556C2A180ED0953A002DB76E /* Pref Pane */,
 				556C29F90ED09413002DB76E /* Application */,
 				556C2C4B0ED0A410002DB76E /* Common */,
-				554B13A00ED5BEF500799BC1 /* External */,
 				554B13820ED5BDCA00799BC1 /* Unit Tests */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
@@ -235,25 +229,6 @@
 			);
 			name = "Unit Tests";
 			path = tests;
-			sourceTree = "<group>";
-		};
-		554B13A00ED5BEF500799BC1 /* External */ = {
-			isa = PBXGroup;
-			children = (
-				554B13A10ED5BEF500799BC1 /* RegexKitLite */,
-			);
-			name = External;
-			path = external;
-			sourceTree = "<group>";
-		};
-		554B13A10ED5BEF500799BC1 /* RegexKitLite */ = {
-			isa = PBXGroup;
-			children = (
-				554B13A20ED5BEF500799BC1 /* RegexKitLite.h */,
-				554B13A30ED5BEF500799BC1 /* RegexKitLite.html */,
-				554B13A40ED5BEF500799BC1 /* RegexKitLite.m */,
-			);
-			path = RegexKitLite;
 			sourceTree = "<group>";
 		};
 		556C29F90ED09413002DB76E /* Application */ = {
@@ -457,7 +432,6 @@
 			files = (
 				554B13690ED5BD5F00799BC1 /* RadarUrlParser.m in Sources */,
 				554B13980ED5BE1600799BC1 /* RadarUrlParserTest.m in Sources */,
-				554B13A60ED5BEF500799BC1 /* RegexKitLite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +453,6 @@
 				5577E8850ECF8B0000AF8FA6 /* RadarForwarderAppDelegate.m in Sources */,
 				556C2C380ED0A35D002DB76E /* RadarForwarderConstants.m in Sources */,
 				554B136A0ED5BD5F00799BC1 /* RadarUrlParser.m in Sources */,
-				554B13A80ED5BEF500799BC1 /* RegexKitLite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +676,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -716,6 +690,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = macosx;

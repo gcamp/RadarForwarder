@@ -23,14 +23,16 @@
  */
 
 #import "RadarUrlParser.h"
-#import "RegexKitLite.h"
 
 
 NSString * parseRadarUrl(NSString * urlPath)
 {
     // We don't care what the scheme is.  We only register for schemes we want
     // to respond to, anyways.
-    NSString * radar = [urlPath stringByMatching:@"^[a-zA-Z-]+://(?:problem/)?(\\d+)$"
-                                         capture:1];
-    return radar;
+    NSRegularExpression* expression = [[NSRegularExpression alloc] initWithPattern:@"^[a-zA-Z-]+://(?:problem/)?(\\d+)$" 
+                                                                           options:(NSRegularExpressionCaseInsensitive) error:nil];
+    NSTextCheckingResult* result = [expression firstMatchInString:urlPath options:0 range:NSMakeRange(0, urlPath.length)];
+    
+    if (result.range.location == NSNotFound) return nil;
+    else return [urlPath substringWithRange:result.range];
 }
