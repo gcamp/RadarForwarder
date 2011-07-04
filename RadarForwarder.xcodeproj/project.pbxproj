@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		556C2A5C0ED0963D002DB76E /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 556C2A650ED0968C002DB76E /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				556C2A600ED09643002DB76E /* PBXTargetDependency */,
+				556C2A620ED09643002DB76E /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		554B13690ED5BD5F00799BC1 /* RadarUrlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B13680ED5BD5F00799BC1 /* RadarUrlParser.m */; };
+		554B136A0ED5BD5F00799BC1 /* RadarUrlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B13680ED5BD5F00799BC1 /* RadarUrlParser.m */; };
+		554B13980ED5BE1600799BC1 /* RadarUrlParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B13970ED5BE1600799BC1 /* RadarUrlParserTest.m */; };
+		554B13A60ED5BEF500799BC1 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B13A40ED5BEF500799BC1 /* RegexKitLite.m */; };
+		554B13A80ED5BEF500799BC1 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B13A40ED5BEF500799BC1 /* RegexKitLite.m */; };
+		554B13B10ED5BF3D00799BC1 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 554B13B00ED5BF3D00799BC1 /* libicucore.dylib */; };
+		554B13B20ED5BF4900799BC1 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 554B13B00ED5BF3D00799BC1 /* libicucore.dylib */; };
+		556C2A270ED0953A002DB76E /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 556C2A1A0ED0953A002DB76E /* AppInfo.m */; };
+		556C2A290ED0953A002DB76E /* RadarForwarderPref.xib in Resources */ = {isa = PBXBuildFile; fileRef = 556C2A1D0ED0953A002DB76E /* RadarForwarderPref.xib */; };
+		556C2A2B0ED0953A002DB76E /* RadarForwarderPref.m in Sources */ = {isa = PBXBuildFile; fileRef = 556C2A250ED0953A002DB76E /* RadarForwarderPref.m */; };
+		556C2A2C0ED0953A002DB76E /* RadarForwarderPref.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 556C2A260ED0953A002DB76E /* RadarForwarderPref.tiff */; };
+		556C2A490ED095B8002DB76E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 556C2A1B0ED0953A002DB76E /* InfoPlist.strings */; };
+		556C2A670ED0968E002DB76E /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556C2A660ED0968E002DB76E /* PreferencePanes.framework */; };
+		556C2BBC0ED09E92002DB76E /* RadarForwarder.app in Resources */ = {isa = PBXBuildFile; fileRef = 8D1107320486CEB800E47090 /* RadarForwarder.app */; };
+		556C2C370ED0A35D002DB76E /* RadarForwarderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 556C2C360ED0A35D002DB76E /* RadarForwarderConstants.m */; };
+		556C2C380ED0A35D002DB76E /* RadarForwarderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 556C2C360ED0A35D002DB76E /* RadarForwarderConstants.m */; };
+		5577E8850ECF8B0000AF8FA6 /* RadarForwarderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5577E8840ECF8B0000AF8FA6 /* RadarForwarderAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		554B13860ED5BDE700799BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554B13600ED5BD1D00799BC1 /* UnitTests */;
+			remoteInfo = UnitTests;
+		};
+		556C2A5F0ED09643002DB76E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = "RadarForwarder App";
+		};
+		556C2A610ED09643002DB76E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556C2A110ED094DA002DB76E;
+			remoteInfo = "RadarForwarder Pref";
+		};
+		556C2BB80ED09E86002DB76E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = "RadarForwarder App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* RadarForwarder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarForwarder_Prefix.pch; sourceTree = "<group>"; };
+		554B13610ED5BD1D00799BC1 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		554B13670ED5BD5F00799BC1 /* RadarUrlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarUrlParser.h; sourceTree = "<group>"; };
+		554B13680ED5BD5F00799BC1 /* RadarUrlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarUrlParser.m; sourceTree = "<group>"; };
+		554B13830ED5BDCA00799BC1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554B13960ED5BE1600799BC1 /* RadarUrlParserTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarUrlParserTest.h; sourceTree = "<group>"; };
+		554B13970ED5BE1600799BC1 /* RadarUrlParserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarUrlParserTest.m; sourceTree = "<group>"; };
+		554B13A20ED5BEF500799BC1 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		554B13A30ED5BEF500799BC1 /* RegexKitLite.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = RegexKitLite.html; sourceTree = "<group>"; };
+		554B13A40ED5BEF500799BC1 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		554B13B00ED5BF3D00799BC1 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		556C2A120ED094DA002DB76E /* RadarForwarder.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadarForwarder.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		556C2A190ED0953A002DB76E /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
+		556C2A1A0ED0953A002DB76E /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
+		556C2A1C0ED0953A002DB76E /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		556C2A1E0ED0953A002DB76E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/RadarForwarderPref.xib; sourceTree = "<group>"; };
+		556C2A1F0ED0953A002DB76E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556C2A230ED0953A002DB76E /* RadarForwarder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarForwarder_Prefix.pch; sourceTree = "<group>"; };
+		556C2A240ED0953A002DB76E /* RadarForwarderPref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarForwarderPref.h; sourceTree = "<group>"; };
+		556C2A250ED0953A002DB76E /* RadarForwarderPref.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarForwarderPref.m; sourceTree = "<group>"; };
+		556C2A260ED0953A002DB76E /* RadarForwarderPref.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = RadarForwarderPref.tiff; sourceTree = "<group>"; };
+		556C2A660ED0968E002DB76E /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		556C2C350ED0A35D002DB76E /* RadarForwarderConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarForwarderConstants.h; sourceTree = "<group>"; };
+		556C2C360ED0A35D002DB76E /* RadarForwarderConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarForwarderConstants.m; sourceTree = "<group>"; };
+		556C2CEF0ED0B36A002DB76E /* versions.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = versions.xcconfig; sourceTree = "<group>"; };
+		5577E8830ECF8B0000AF8FA6 /* RadarForwarderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarForwarderAppDelegate.h; sourceTree = "<group>"; };
+		5577E8840ECF8B0000AF8FA6 /* RadarForwarderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarForwarderAppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* RadarForwarder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadarForwarder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		554B135E0ED5BD1D00799BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554B13B10ED5BF3D00799BC1 /* libicucore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556C2A100ED094DA002DB76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556C2A670ED0968E002DB76E /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				554B13B20ED5BF4900799BC1 /* libicucore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5577E8830ECF8B0000AF8FA6 /* RadarForwarderAppDelegate.h */,
+				5577E8840ECF8B0000AF8FA6 /* RadarForwarderAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				556C2A660ED0968E002DB76E /* PreferencePanes.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				554B13B00ED5BF3D00799BC1 /* libicucore.dylib */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* RadarForwarder.app */,
+				556C2A120ED094DA002DB76E /* RadarForwarder.prefPane */,
+				554B13610ED5BD1D00799BC1 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* RadarForwarder */ = {
+			isa = PBXGroup;
+			children = (
+				556C2A180ED0953A002DB76E /* Pref Pane */,
+				556C29F90ED09413002DB76E /* Application */,
+				556C2C4B0ED0A410002DB76E /* Common */,
+				554B13A00ED5BEF500799BC1 /* External */,
+				554B13820ED5BDCA00799BC1 /* Unit Tests */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				556C2CEF0ED0B36A002DB76E /* versions.xcconfig */,
+			);
+			name = RadarForwarder;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* RadarForwarder_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		554B13820ED5BDCA00799BC1 /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				554B13830ED5BDCA00799BC1 /* Info.plist */,
+				554B13960ED5BE1600799BC1 /* RadarUrlParserTest.h */,
+				554B13970ED5BE1600799BC1 /* RadarUrlParserTest.m */,
+			);
+			name = "Unit Tests";
+			path = tests;
+			sourceTree = "<group>";
+		};
+		554B13A00ED5BEF500799BC1 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				554B13A10ED5BEF500799BC1 /* RegexKitLite */,
+			);
+			name = External;
+			path = external;
+			sourceTree = "<group>";
+		};
+		554B13A10ED5BEF500799BC1 /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				554B13A20ED5BEF500799BC1 /* RegexKitLite.h */,
+				554B13A30ED5BEF500799BC1 /* RegexKitLite.html */,
+				554B13A40ED5BEF500799BC1 /* RegexKitLite.m */,
+			);
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+		556C29F90ED09413002DB76E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+			);
+			name = Application;
+			path = app;
+			sourceTree = "<group>";
+		};
+		556C2A180ED0953A002DB76E /* Pref Pane */ = {
+			isa = PBXGroup;
+			children = (
+				556C2A350ED0956E002DB76E /* Classes */,
+				556C2A330ED09557002DB76E /* Resources */,
+				556C2A340ED09565002DB76E /* Other Sources */,
+			);
+			name = "Pref Pane";
+			path = prefpane;
+			sourceTree = "<group>";
+		};
+		556C2A330ED09557002DB76E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				556C2A1F0ED0953A002DB76E /* Info.plist */,
+				556C2A1B0ED0953A002DB76E /* InfoPlist.strings */,
+				556C2A1D0ED0953A002DB76E /* RadarForwarderPref.xib */,
+				556C2A260ED0953A002DB76E /* RadarForwarderPref.tiff */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		556C2A340ED09565002DB76E /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				556C2A230ED0953A002DB76E /* RadarForwarder_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		556C2A350ED0956E002DB76E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				556C2A240ED0953A002DB76E /* RadarForwarderPref.h */,
+				556C2A250ED0953A002DB76E /* RadarForwarderPref.m */,
+				556C2A190ED0953A002DB76E /* AppInfo.h */,
+				556C2A1A0ED0953A002DB76E /* AppInfo.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		556C2C4B0ED0A410002DB76E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				556C2C350ED0A35D002DB76E /* RadarForwarderConstants.h */,
+				556C2C360ED0A35D002DB76E /* RadarForwarderConstants.m */,
+				554B13670ED5BD5F00799BC1 /* RadarUrlParser.h */,
+				554B13680ED5BD5F00799BC1 /* RadarUrlParser.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		554B13600ED5BD1D00799BC1 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554B13660ED5BD1D00799BC1 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				554B135C0ED5BD1D00799BC1 /* Resources */,
+				554B135D0ED5BD1D00799BC1 /* Sources */,
+				554B135E0ED5BD1D00799BC1 /* Frameworks */,
+				554B135F0ED5BD1D00799BC1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 554B13610ED5BD1D00799BC1 /* UnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		556C2A110ED094DA002DB76E /* RadarForwarder Pref */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556C2A160ED094DB002DB76E /* Build configuration list for PBXNativeTarget "RadarForwarder Pref" */;
+			buildPhases = (
+				556C2A0E0ED094DA002DB76E /* Resources */,
+				556C2A0F0ED094DA002DB76E /* Sources */,
+				556C2A100ED094DA002DB76E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				556C2BB90ED09E86002DB76E /* PBXTargetDependency */,
+			);
+			name = "RadarForwarder Pref";
+			productName = RadarForwarder;
+			productReference = 556C2A120ED094DA002DB76E /* RadarForwarder.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D1107260486CEB800E47090 /* RadarForwarder App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "RadarForwarder App" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				554B13870ED5BDE700799BC1 /* PBXTargetDependency */,
+			);
+			name = "RadarForwarder App";
+			productInstallPath = "$(HOME)/Applications";
+			productName = RadarForwarder;
+			productReference = 8D1107320486CEB800E47090 /* RadarForwarder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RadarForwarder" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* RadarForwarder */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				556C2A5C0ED0963D002DB76E /* All */,
+				8D1107260486CEB800E47090 /* RadarForwarder App */,
+				556C2A110ED094DA002DB76E /* RadarForwarder Pref */,
+				554B13600ED5BD1D00799BC1 /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554B135C0ED5BD1D00799BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556C2A0E0ED094DA002DB76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556C2BBC0ED09E92002DB76E /* RadarForwarder.app in Resources */,
+				556C2A290ED0953A002DB76E /* RadarForwarderPref.xib in Resources */,
+				556C2A2C0ED0953A002DB76E /* RadarForwarderPref.tiff in Resources */,
+				556C2A490ED095B8002DB76E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		554B135F0ED5BD1D00799BC1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		554B135D0ED5BD1D00799BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554B13690ED5BD5F00799BC1 /* RadarUrlParser.m in Sources */,
+				554B13980ED5BE1600799BC1 /* RadarUrlParserTest.m in Sources */,
+				554B13A60ED5BEF500799BC1 /* RegexKitLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556C2A0F0ED094DA002DB76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556C2A270ED0953A002DB76E /* AppInfo.m in Sources */,
+				556C2A2B0ED0953A002DB76E /* RadarForwarderPref.m in Sources */,
+				556C2C370ED0A35D002DB76E /* RadarForwarderConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				5577E8850ECF8B0000AF8FA6 /* RadarForwarderAppDelegate.m in Sources */,
+				556C2C380ED0A35D002DB76E /* RadarForwarderConstants.m in Sources */,
+				554B136A0ED5BD5F00799BC1 /* RadarUrlParser.m in Sources */,
+				554B13A80ED5BEF500799BC1 /* RegexKitLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		554B13870ED5BDE700799BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554B13600ED5BD1D00799BC1 /* UnitTests */;
+			targetProxy = 554B13860ED5BDE700799BC1 /* PBXContainerItemProxy */;
+		};
+		556C2A600ED09643002DB76E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* RadarForwarder App */;
+			targetProxy = 556C2A5F0ED09643002DB76E /* PBXContainerItemProxy */;
+		};
+		556C2A620ED09643002DB76E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 556C2A110ED094DA002DB76E /* RadarForwarder Pref */;
+			targetProxy = 556C2A610ED09643002DB76E /* PBXContainerItemProxy */;
+		};
+		556C2BB90ED09E86002DB76E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* RadarForwarder App */;
+			targetProxy = 556C2BB80ED09E86002DB76E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		556C2A1B0ED0953A002DB76E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556C2A1C0ED0953A002DB76E /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		556C2A1D0ED0953A002DB76E /* RadarForwarderPref.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556C2A1E0ED0953A002DB76E /* English */,
+			);
+			name = RadarForwarderPref.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		554B13640ED5BD1D00799BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = tests/Info.plist;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		554B13650ED5BD1D00799BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = tests/Info.plist;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		556C2A140ED094DB002DB76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = prefpane/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = RadarForwarder;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		556C2A150ED094DB002DB76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = prefpane/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = RadarForwarder;
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		556C2A5D0ED0963D002DB76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = All;
+			};
+			name = Debug;
+		};
+		556C2A5E0ED0963D002DB76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = All;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = app/RadarForwarder_Prefix.pch;
+				INFOPLIST_FILE = app/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = RadarForwarder;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = app/RadarForwarder_Prefix.pch;
+				INFOPLIST_FILE = app/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = RadarForwarder;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556C2CEF0ED0B36A002DB76E /* versions.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556C2CEF0ED0B36A002DB76E /* versions.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		554B13660ED5BD1D00799BC1 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554B13640ED5BD1D00799BC1 /* Debug */,
+				554B13650ED5BD1D00799BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556C2A160ED094DB002DB76E /* Build configuration list for PBXNativeTarget "RadarForwarder Pref" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556C2A140ED094DB002DB76E /* Debug */,
+				556C2A150ED094DB002DB76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556C2A650ED0968C002DB76E /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556C2A5D0ED0963D002DB76E /* Debug */,
+				556C2A5E0ED0963D002DB76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "RadarForwarder App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RadarForwarder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
