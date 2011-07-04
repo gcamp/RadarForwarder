@@ -30,7 +30,7 @@
 
 - (void) registerForUrls;
 - (void)restartIdleTimer;
-- (void)timerFired:(NSTimer *)timer;
+- (void)terminateIfIdle:(NSTimer *)timer;
 
 @end
 
@@ -57,13 +57,13 @@
     
     _idleTimer = [NSTimer scheduledTimerWithTimeInterval:10.0
                                                   target:self
-                                                selector:@selector(timerFired:)
+                                                selector:@selector(terminateIfIdle:)
                                                 userInfo:nil
                                                  repeats:NO];
     [_idleTimer retain];
 }
 
-- (void)timerFired:(NSTimer *)timer
+- (void)terminateIfIdle:(NSTimer *)timer
 {
     [NSApp terminate:self];
 }
