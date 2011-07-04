@@ -41,7 +41,7 @@
 + (void)initialize
 {
     NSMutableDictionary * defaultPrefs = [NSMutableDictionary dictionary];
-    [defaultPrefs setObject:@"http://openradar.appspot.com/rdar?number=%@"
+    [defaultPrefs setObject:@"http://openradar.appspot.com/%@"
                      forKey:kForwardingUrlFormatKey];
 
     NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
